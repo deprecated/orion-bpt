@@ -15,7 +15,7 @@ bivar.PlotVariable.n = 200
 import pyx
 pyx.text.set(mode="latex")
 
-datadir = "../2002/" 
+datadir = "/Users/will/Work/BobPC/2002/" 
 
 # Classic diagnostic diagram using nii/ha and oiii/ha (we have no Hbeta)
 oinii = pyfits.open(datadir + "final631-658-sub0.09.fits")[0].data
